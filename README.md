@@ -7,7 +7,7 @@
 
 `Cкриншот веб-интерфейса RabbitMQ`
 
-![img](img/IMG1.png)
+![img](img/IMG1.PNG)
 
 ### Задание 2. Отправка и получение сообщений.
 
@@ -19,11 +19,11 @@ $ pip install pika
 
 `Cкриншот веб-интерфейса RabbitMQ после выполнения скрипта producer.py`
 
-![img](img/IMG2_1.png)
+![img](img/IMG2_1.PNG)
 
 `Cкриншот выполнения скрипта consumer.py`
 
-![img](img/IMG2_2.png)
+![img](img/IMG2_2.PNG)
 
 ### Задание 3. Подготовка HA кластера.
 
@@ -38,20 +38,20 @@ $ cat /etc/hosts
 
 `Cкриншот веб-интерфейса RabbitMQ с информацией о доступных нодах в кластере`
 
-![img](img/IMG3_1.png)
+![img](img/IMG3_1.PNG)
 
 `Cкриншот веб-интерфейса RabbitMQ с информацией о включенной политике`
 
-![img](img/IMG3_3.png)
+![img](img/IMG3_3.PNG)
 
 Также приложите вывод команды с двух нод:
 $ rabbitmqctl cluster_status
 
 `Cкриншоты вывода команды rabbitmqctl cluster_status с двух нод`
 
-![img](img/IMG3_5.png)
+![img](img/IMG3_5.PNG)
 
-![img](img/IMG3_6.png)
+![img](img/IMG3_6.PNG)
 
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 $ rabbitmqadmin get queue='hello'
@@ -79,5 +79,5 @@ channel.start_consuming()
 
 `Скриншот результата работы поправленного скрипта сonsumer.py:`
 
-![img](img/IMG3_7.png)
+![img](img/IMG3_7.PNG)
 
