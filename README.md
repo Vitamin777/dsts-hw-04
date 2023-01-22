@@ -95,5 +95,5 @@ channel.start_consuming()
 
 `Скриншот результата работы поправленного скрипта сonsumer.py:`
 
-![img](img/IMG3_7.PNG)
+![img](img/IMG_3_7.PNG)
 
